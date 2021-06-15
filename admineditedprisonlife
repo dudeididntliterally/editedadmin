@@ -154,14 +154,23 @@
 					end
 				end
 			elseif msg:match(prefix .. "lguns") then
-				local guns = {"M4A1", "Remington 870", "M9"}
-				LocalPlayer.CharacterAdded:Connect(
-					function(Character)
-						for i, v in pairs(guns) do
-							workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver[v].ITEMPICKUP)
-						end
-					end
-				)
+				game.Players.LocalPlayer.CharacterAdded:connect(function(character)
+        			wait(0.1)
+        			local autoguns, doesPlayerOwnAsset = pcall(PlayerOwnsAsset, MarketplaceService, player, 96651)
+        			if doesPlayerOwnAsset then
+            			workspace.Remote.ItemHandler:InvokeServer(game:GetService("Workspace")["Prison_ITEMS"].giver.M4A1.ITEMPICKUP)
+            			workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+            			workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
+            			workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
+        			end
+    				end)
+    				game.Players.LocalPlayer.CharacterAdded:connect(function(character)
+        			wait(0.1)
+        			local autoguns, doesPlayerOwnAsset = pcall(PlayerOwnsAsset, MarketplaceService, player, 96651)
+        			if doesPlayerOwnAsset then
+            			workspace.Remote.ItemHandler:InvokeServer(game:GetService("Workspace")["Prison_ITEMS"].giver.M4A1.ITEMPICKUP)
+        			end
+    				end)
 			elseif msg:match(prefix .. "antic") then
 				local anticrash = PlayerScripts.ClientGunReplicator
 				anticrash.Disabled = true
