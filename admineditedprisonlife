@@ -627,35 +627,80 @@ end
 				-- You have to re-apply the script if you die
 				loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
 			elseif msg:match(prefix .. "remove") then
-			    game.Workspace.Prison_Halls.walls:Remove()
 wait(0.1)
-game.Workspace.Prison_Fences.fence:Remove()
-
-wait(0.1)
-game.Workspace.Prison_Gate:Remove()
-
-
+game.Workspace.Prison_Halls.walls:Remove()
 
 wait(0.1)
-game.Workspace.gate:Remove()
+game.Workspace.Prison_Halls.walls:Remove()
 
 wait(0.1)
-game.Workspace.Doors:Remove()
+game.Workspace.Prison_Halls.roof:Remove()
 
 wait(0.1)
-game.Workspace.Ceiling:Remove()
+game.Workspace.Prison_Halls.outlines:Remove()
 
 wait(0.1)
-game.Workspace.Warehouses:Remove()
+game.Workspace.Prison_Halls.lights:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Halls:Remove()
+Workspace.Prison_Halls.accent:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Halls:Remove()
+game.Workspace.Prison_Halls.glass:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Cellblock:Remove()
+game.Workspace.Prison_Cellblock.b_front:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.doors:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_tables:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_front:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_outerwall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_wall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_wall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_hallwall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_outerwall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_ramp:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_ramp:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_walls:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.Cells_B:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.Cells_A:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_corner:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.Wedge:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_ceiling:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_ceiling:Remove()
 
 wait(0.1)
 game.Workspace.City_buildings:Remove()
@@ -667,19 +712,85 @@ wait(0.1)
 game.Workspace.Prison_Fences:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Guard_Outpost:Remove()
+game.Workspace.Prison_Halls.walls:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Cafeteria:Remove()
+game.Workspace.Prison_Halls.roof:Remove()
 
 wait(0.1)
-game.Workspace.Town_Fence:Remove()
+game.Workspace.Prison_Halls.outlines:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Administration:Remove()
+game.Workspace.Prison_Halls.lights:Remove()
 
 wait(0.1)
-game.Workspace.Prison_Cafeteria.boxes:Remove()
+Workspace.Prison_Halls.accent:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Halls.glass:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_front:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.doors:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_tables:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_front:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_outerwall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_wall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_wall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_hallwall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_outerwall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_ramp:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_ramp:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_walls:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.Cells_B:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.Cells_A:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.c_corner:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.Wedge:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.a_ceiling:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Cellblock.b_ceiling:Remove()
+
+wait(0.1)
+game.Workspace.City_buildings:Remove()
+
+wait(0.1)
+game.Workspace.Prison_OuterWall:Remove()
+
+wait(0.1)
+game.Workspace.Prison_Fences:Remove()
 			elseif msg:match(prefix .. "lock") then
 				LocalPlayer.Character.Humanoid.WalkSpeed = 24
 				local CIH = game.Players.LocalPlayer.Character.ClientInputHandler
