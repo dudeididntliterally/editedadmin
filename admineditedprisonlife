@@ -13,13 +13,13 @@
 	})
 	wait(0.8)
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-	Text = "Loaded Scripts (yes) (also a little reminder i am keeping prefix)",
-	Color = Color3.fromRGB(44, 101, 29)
+		Text = "Loaded Scripts (yes) (also a little reminder i am keeping prefix)",
+		Color = Color3.fromRGB(44, 101, 29)
 	})
 	wait(0.5)
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-	Text = "happy trollin cuh (thanks for using script)",
-	Color = Color3.fromRGB(9, 137, 207)
+		Text = "happy trollin cuh (thanks for using script)",
+		Color = Color3.fromRGB(9, 137, 207)
 	})
 
 	game:GetService("Players").LocalPlayer.PlayerGui.Home.fadeFrame.Visible = false
