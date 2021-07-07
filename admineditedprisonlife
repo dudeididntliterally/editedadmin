@@ -13,13 +13,13 @@
 	})
 	wait(0.8)
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-		Text = "Loaded Scripts (yes) (also a little reminder i am keeping prefix)",
-		Color = Color3.fromRGB(44, 101, 29)
+	Text = "Loaded Scripts (yes) (also a little reminder i am keeping prefix)",
+	Color = Color3.fromRGB(44, 101, 29)
 	})
 	wait(0.5)
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
-		Text = "happy trollin cuh (thanks for using script)",
-		Color = Color3.fromRGB(9, 137, 207)
+	Text = "happy trollin cuh (thanks for using script)",
+	Color = Color3.fromRGB(9, 137, 207)
 	})
 
 	game:GetService("Players").LocalPlayer.PlayerGui.Home.fadeFrame.Visible = false
@@ -636,12 +636,14 @@ FontSize = Enum.FontSize.Size24;
  
 })
  
-     local mouse = game.Players.LocalPlayer:GetMouse()
+   local mouse = game.Players.LocalPlayer:GetMouse()
    local arrestEvent = game.Workspace.Remote.arrest
    mouse.Button1Down:connect(function()
    local obj = mouse.Target
    local response = arrestEvent:InvokeServer(obj)
    end)
+   end
+
 			    elseif msg:match(prefix .. "ca off") then
 _G.toggle = false
 
@@ -657,12 +659,13 @@ FontSize = Enum.FontSize.Size24;
  
 })
  
-     local mouse = game.Players.LocalPlayer:GetMouse()
+   local mouse = game.Players.LocalPlayer:GetMouse()
    local arrestEvent = game.Workspace.Remote.arrest
    mouse.Button1Down:connect(function()
    local obj = mouse.Target
    local response = arrestEvent:InvokeServer(obj)
    end)
+   end
 			    elseif msg:match(prefix .. "ar all") then
 game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
  
@@ -688,11 +691,7 @@ local i = 10
     until i == 0
 end
 end
-			    elseif msg:match(prefix .. "ka on") then
-_G.toggle = true
-
-while _G.toggle == true do
-wait()
+			    elseif msg:match(prefix .. "ka") then
 game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
  
 Text = ("E = KillAura");
@@ -703,58 +702,7 @@ FontSize = Enum.FontSize.Size24;
  
 })
  
-     plr = game:service'Players'.LocalPlayer
-char = plr.Character
-mouse = plr:GetMouse()
-on = false
- 
-mouse.KeyDown:connect(function(key)
-  if key == "e" then
-      on = true
-  end
-end)
- 
-mouse.KeyUp:connect(function(key)
-  if key == "e" then
-      on = false
-  end
-end)
- 
-while wait(0.1) do
-  for i, b in pairs(game.Players:GetChildren()) do
-      if b.Name ~= plr.Name and not b:IsFriendsWith(plr.UserId) and on then
-          for i = 1, 10 do
-              game.ReplicatedStorage.meleeEvent:FireServer(b)
-          end
-      end
-  end
-end
- 
- 
-while true do
- wait(0.01)
- for i,v in pairs (game.Players:GetChildren()) do
-   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v.Name].Character.HumanoidRootPart.CFrame
-   game.ReplicatedStorage.meleeEvent:FireServer(v.Name)
-   wait(.8)
- end
-end
-			    elseif msg:match(prefix .. "ka off") then
-_G.toggle = false
-
-while _G.toggle == true do
-wait()
-game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage",{
- 
-Text = ("E = KillAura");
- 
-Color = Color3.new(255,0,0);
- 
-FontSize = Enum.FontSize.Size24;
- 
-})
- 
-     plr = game:service'Players'.LocalPlayer
+plr = game:service'Players'.LocalPlayer
 char = plr.Character
 mouse = plr:GetMouse()
 on = false
@@ -1875,10 +1823,10 @@ end
         ---Main Commands---
         !re - Respawns
         !auto on - AutoRespawn
-	!auto off (off AutoRespawn)
+        !auto off (off AutoRespawn)
         !prefix - !prefix (NewPrefixHere)
         !punch on - (On punch)
-	!punch off - (Off punch)
+        !punch off - (Off punch)
         !nopunch - No Punch
         !silentaim - silent aim lock
         !bring - Brings a player
@@ -1905,7 +1853,7 @@ end
         !btools - (delete certain walls)
         !display - Display Mode
         !asa on - Anti Spam Arrest
-	!asa off (Off asa)
+        !asa off (Off asa)
         !lock - Anti tazeall-
         !chat - Chat Bypass
         !tazeall- Taze All
